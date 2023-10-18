@@ -1,0 +1,31 @@
+html, body{
+    font-size: 32px;
+}
+nav ul {
+    list-style: none;
+    padding: 0.5rem 1rem;
+  }
+
+  nav a {
+    display: block;
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(111, 232, 174);
+    color: rgb(40, 77, 60);
+    transition: 0.250s;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    background-color: rgb(24, 56, 37);
+    color: rgb(111, 232, 174);
+
+  }
+
+  nav a:active {
+    background-color: rgb(232, 135, 16);
+    color: rgb(111, 232, 174);
+    transition: none;
+  }
+
