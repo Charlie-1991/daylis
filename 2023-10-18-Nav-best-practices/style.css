@@ -1,16 +1,16 @@
 html, body{
     font-size: 32px;
 }
+
 nav ul {
     list-style: none;
     padding: 0.5rem 1rem;
     justify-content: space-evenly;
   }
+
 nav li{
   flex: auto;
 }
-
-
 
 nav a {
     display: block;
@@ -39,8 +39,8 @@ nav a {
 @media (width > 1024px) {
   nav ul {
     display: flex;
-    
   }
+  
   ul >* {
     flex: auto;
   }
