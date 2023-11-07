@@ -1,0 +1,18 @@
+body{
+  font-size: 50px;
+}
+
+section{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  gap: 1rem;
+}
+
+article{
+  background-color: goldenrod;
+  
+}
+
+
+
