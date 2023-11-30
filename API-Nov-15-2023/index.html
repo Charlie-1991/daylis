@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Sample API call</title>
+  </head>
+  <body>
+    <h1>Get some cat facts</h1>
+    <button onclick="getCatFact()">Get a fact</button>
+    <p id="catFactData"></p>
+    <script>
+      async function getCatFact() {
+        // call the api
+        let response = await fetch("https://place.dog/300/200/?count=10");
+        // check the response.code here if you want
+        // get the data
+        let catFacts = await response.json();
+        // use it somehow
+        console.log(catFacts);
+        document.getElementById("catFactData").innerHTML =
+          JSON.stringify(catFacts);
+      }
+    </script>
+  </body>
+</html>

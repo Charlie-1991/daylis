@@ -1,0 +1,19 @@
+{
+  "name": "automated-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "script": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "description": ""
+}
