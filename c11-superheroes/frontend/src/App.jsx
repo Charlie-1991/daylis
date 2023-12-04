@@ -58,8 +58,11 @@ function App() {
   <div>
     <h1>Superhero Registry</h1>
     {superheroesList != undefined ? superheroesList.map((superhero) => {
-       return <SuperheroDetail superhero={superhero} />
-    } )}:
+       return <SuperheroDetail superhero={superhero} />;
+    } )
+  ):(
+    <p></p>
+  )
   </div>
   );
 }
