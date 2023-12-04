@@ -1,0 +1,17 @@
+{"name": "Flash",
+"power": "Speed",
+"homeCity": "Central City",
+"alterEgo": "Barry Allen",
+},
+{
+  "name": "Spider-man",
+  "power": "Web-slinging",
+  "homeCity": "New York City",
+  "alterEgo": "Peter Parker",
+},
+{
+  "name": "Superman",
+  "power": "Super Strong",
+  "homeCity": "Metropolis",
+  "alterEgo": "Clark Kent",
+}
